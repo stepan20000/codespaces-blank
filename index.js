@@ -7,3 +7,5 @@ const { text } = await ai.generate({
     model: gemini20Flash,
     prompt: 'Why is Firebase awesome?'
 });
+
+console.log(text);
